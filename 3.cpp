@@ -4,7 +4,7 @@ Program:
 Description: 
 Shanbo Cheng: cshanbo@gmail.com 
 Date: 2016-07-06 15:00:26
-Last modified: 2016-07-06 16:28:11
+Last modified: 2016-07-11 16:01:16
 GCC version: 4.7.3
 */
 
@@ -17,7 +17,6 @@ class Solution {
     unordered_map<char, int> char_map;
 public:
     int lengthOfLongestSubstring(string s) {
-        char_map.clear();
         if(s.length() == 0)
             return 0;
         int ret = 0, index = 0, start = 0, res = 0;
@@ -36,12 +35,17 @@ public:
         }
         return max(ret, res);
     }
+
+    void clearMap() {
+        char_map.clear();
+    }
 };
 
 int main() {
     Solution slt;
     string s;
     while(cin >> s) {
+        slt.clearMap();
         cout << slt.lengthOfLongestSubstring(s) << endl;
     }
     return 0;

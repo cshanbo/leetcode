@@ -4,13 +4,13 @@ Program:
 Description: 
 Shanbo Cheng: cshanbo@gmail.com 
 Date: 2016-07-06 15:00:26
-Last modified: 2016-07-11 15:21:03
+Last modified: 2016-07-06 16:43:26
 GCC version: 4.7.3
 */
 
 //
 //in this problem, leetcode #1, this code works, because it guarantees each test case has exactly one solution.
-//otherwise, the code should be modified (line 29)
+//otherwise, the code should be modified (should be return at line 29)
 //
 
 #include <iostream>

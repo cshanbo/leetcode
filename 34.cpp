@@ -4,7 +4,7 @@ Program: Search for a range
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-07-29 14:19:23
-Last modified: 2016-07-29 14:55:47
+Last modified: 2016-07-29 15:09:04
 GCC version: 4.9.3
 ***********************************************************/
 
@@ -77,5 +77,4 @@ int main() {
     vector<int> vec{1, 2};
     int target = 3;
     Solution slt;
-    cout << slt.searchRange(vec, target) << endl;
 }

@@ -4,7 +4,7 @@ Program: Sudoku Solver
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-08-01 19:49:33
-Last modified: 2016-08-01 20:23:16
+Last modified: 2016-08-01 21:59:40
 GCC version: 4.9.3
 ***********************************************************/
 
@@ -42,13 +42,13 @@ public:
             for(char c = '1'; c <= '9'; c++) {
                 if(isValid(board, i, j, c)) {
                     board[i][j] = c;
-                    if(backTrack(board, i, j+1))
+                    if(backTrack(board, i, j + 1))
                         return true;
                     board[i][j] = '.';
                 }
             }
             return false;
         } else
-            return backTrack(board, i, j+1);
+            return backTrack(board, i, j + 1);
     }
 };

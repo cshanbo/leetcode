@@ -4,26 +4,21 @@ Program: Convert Sorted Array to Balanced BST
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-08-11 13:23:36
-Last modified: 2016-08-11 16:16:04
+Last modified: 2016-08-11 16:22:02
 GCC version: 4.9.3
 ***********************************************************/
 
 #include <iostream>
 #include <vector>
+#include "misc.h"
 using namespace std;
-struct TreeNode {
-	int val;
-	TreeNode *left;
-	TreeNode *right;
-	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
 
+// Basic Depth First Search Solution
+// Each time, choose the middle one as the root
 class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
-        TreeNode* ret = new TreeNode(0);
-        ret = helper(nums, 0, nums.size() - 1);
-        return ret;
+        return helper(nums, 0, nums.size() - 1);
     }
     
     TreeNode* helper(vector<int> &nums, int l, int r){
@@ -36,3 +31,7 @@ public:
         return node;
     }
 };
+
+int main() {
+    return 0;
+}

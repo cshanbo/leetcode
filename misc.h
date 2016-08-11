@@ -8,6 +8,8 @@ Last modified: 2016-08-11 16:17:04
 GCC version: 4.9.3
 ***********************************************************/
 
+#include <vector>
+
 template <typename T>
 using matrix = std::vector<std::vector<T>>;
 
@@ -18,4 +20,8 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-
+struct ListNode {
+    int val;
+    ListNode* next;
+    ListNode(int x) : val(x), next(NULL) {}
+};

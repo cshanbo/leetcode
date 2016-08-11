@@ -4,10 +4,9 @@ Program: Convert Sorted Array to Balanced BST
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-08-11 13:23:36
-Last modified: 2016-08-11 13:25:43
+Last modified: 2016-08-11 16:16:04
 GCC version: 4.9.3
 ***********************************************************/
-
 
 #include <iostream>
 #include <vector>

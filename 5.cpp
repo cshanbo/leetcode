@@ -4,10 +4,12 @@ Program: 5.cpp
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-07-13 19:54:49
-Last modified: 2016-07-13 19:55:09
+Last modified: 2016-08-11 13:10:23
 GCC version: 4.9.3
 */
 
+#include <string>
+using namespace std;
 class Solution {
     bool isPalindrome(string s, int l, int r) {
         while(l <= r) {

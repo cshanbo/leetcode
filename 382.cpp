@@ -4,11 +4,14 @@ Program:  382
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-08-10 10:30:57
-Last modified: 2016-08-10 10:31:45
+Last modified: 2016-08-12 22:01:04
 GCC version: 4.9.3
 ***********************************************************/
 // the idea is Reservoir sampling
 // https://en.wikipedia.org/wiki/Reservoir_sampling
+#include "misc.h"
+#include <random>
+
 class Solution {
     ListNode* flag;
 public:

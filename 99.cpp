@@ -4,7 +4,7 @@ Program:
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-08-10 14:03:25
-Last modified: 2016-08-11 13:04:08
+Last modified: 2016-08-17 10:50:49
 GCC version: 4.9.3
 ***********************************************************/
 /**
@@ -20,6 +20,8 @@ GCC version: 4.9.3
 //inorder traverse, the first element is the one bigger than the successor 
 //second element is the one smaller the previous ones
 //
+#include "misc.h"
+
 class Solution {
     TreeNode* first;
     TreeNode* second;

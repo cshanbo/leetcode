@@ -4,7 +4,7 @@ Program: Combination Sum
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-07-29 15:33:14
-Last modified: 2016-07-29 15:55:15
+Last modified: 2016-08-11 12:27:13
 GCC version: 4.9.3
 ***********************************************************/
 
@@ -14,6 +14,7 @@ GCC version: 4.9.3
 
 using namespace std;
 
+//standard backtracking solution
 class Solution {
     void helper(vector<int>& candidates, vector<vector<int>>& ret, vector<int>& one, int num, int index) {
         if(num == 0 || index == candidates.size()) {

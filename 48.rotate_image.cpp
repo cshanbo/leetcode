@@ -4,13 +4,14 @@ Program: Rotate image
 Description: 
 Author: cshanbo@gmail.com
 Date: 2016-08-18 12:14:51
-Last modified: 2016-08-18 12:26:50
+Last modified: 2016-08-18 12:31:43
 GCC version: 4.9.3
 *****************************************/
+//Transpose first, then reverse each row
 
-#include <vector>
 #include <algorithm>
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Solution {

@@ -4,7 +4,7 @@ Program: Merge k sorted lists
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-07-25 13:29:15
-Last modified: 2016-07-25 13:30:00
+Last modified: 2016-08-18 11:18:47
 GCC version: 4.7.3
 std = C++ 11
 ******************************************/
@@ -17,6 +17,8 @@ std = C++ 11
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
+#include "misc.h"
  
 class Solution {
     ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {

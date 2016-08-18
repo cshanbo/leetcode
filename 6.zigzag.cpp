@@ -4,7 +4,7 @@ Program: zigzag
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-07-19 08:25:26
-Last modified: 2016-08-17 14:33:24
+Last modified: 2016-08-18 15:23:31
 GCC version: 4.7.3
 */
 
@@ -35,3 +35,6 @@ public:
         return ret;
     }
 };
+
+int main() {
+}

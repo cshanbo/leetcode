@@ -4,10 +4,12 @@ Program: Valid Sudoku
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-08-01 17:55:53
-Last modified: 2016-08-01 19:49:05
+Last modified: 2016-08-17 21:34:07
 GCC version: 4.9.3
 ***********************************************************/
 
+#include <vector>
+using namespace std;
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {

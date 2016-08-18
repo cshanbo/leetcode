@@ -4,7 +4,7 @@ Program: Reverse nodes in k group
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-07-25 13:33:19
-Last modified: 2016-07-25 14:11:08
+Last modified: 2016-08-17 21:33:40
 GCC version: 4.7.3
 std = C++ 11
 ******************************************/
@@ -34,7 +34,8 @@ public:
         return prev->next;
     }
 
-    ListNode* reverseKGroup(ListNode* head, k) {
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        return new ListNode(0);
     }
 };
 

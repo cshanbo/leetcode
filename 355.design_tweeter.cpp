@@ -4,12 +4,14 @@ Program: Design tweeter
 Description: 
 Author: cshanbo@gmail.com
 Date: 2016-08-17 09:00:37
-Last modified: 2016-08-17 10:22:30
+Last modified: 2016-08-18 21:26:14
 GCC version: 4.9.3
 *****************************************/
 
 #include <vector>
-
+#include <unordered_set>
+#include <unordered_map>
+using namespace std;
 
 typedef struct tweet {
     int id;

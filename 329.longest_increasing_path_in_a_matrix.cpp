@@ -4,7 +4,7 @@ Program: Longest increasing path in a matrix
 Description: 
 Author: cshanbo@gmail.com
 Date: 2016-08-18 16:02:43
-Last modified: 2016-08-18 19:16:51
+Last modified: 2016-08-18 19:18:01
 GCC version: 4.9.3
 *****************************************/
 
@@ -23,7 +23,7 @@ public:
         int ret = 1;
         for(int i = 0; i < matrix.size(); i++)
             for(int j = 0; j < matrix[0].size(); j++)
-                ret = max(ret, dfs(matrix, matrix[i][j] - 1, visited, i, j));
+                ret = max(ret, dfs(matrix, matrix[i][j], visited, i, j));
         return ret;
     }
     

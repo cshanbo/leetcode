@@ -1,10 +1,10 @@
 //coding:utf-8
 /*
-Program: 373.cpp
+Program: 373.cpp Find K Pairs with Smallest Sums
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-07-08 22:24:54
-Last modified: 2016-07-11 16:37:07
+Last modified: 2016-08-19 08:36:47
 GCC version: 4.7.3
 */
 
@@ -12,7 +12,7 @@ GCC version: 4.7.3
 #include <vector>
 #include <algorithm>
 static bool compare(pair<int,  int> a,  pair<int,  int> b) {
-        return a.first + a.second < b.first + b.second;
+    return a.first + a.second < b.first + b.second;
 }
 class Solution {
 public:

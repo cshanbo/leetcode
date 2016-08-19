@@ -4,19 +4,20 @@ Program: Path Sum II
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-08-11 16:14:09
-Last modified: 2016-08-11 16:15:25
+Last modified: 2016-08-19 08:47:25
 GCC version: 4.9.3
 ***********************************************************/
 
 //A basic dfs solution, no other tricks
 #include <vector>
+
 using namespace std;
- struct TreeNode {
-     int val;
-     TreeNode *left;
-     TreeNode *right;
-     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- };
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
 
 template <typename T>
 using matrix = vector<vector<T>>;

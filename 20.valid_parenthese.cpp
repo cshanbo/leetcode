@@ -4,10 +4,12 @@ Program: Valid parentheses
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-07-25 13:13:16
-Last modified: 2016-07-25 13:13:44
+Last modified: 2016-08-19 08:35:13
 GCC version: 4.7.3
 std = C++ 11
 ******************************************/
+
+#include <string>
 
 class Solution {
 public:

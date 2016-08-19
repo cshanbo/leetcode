@@ -4,9 +4,11 @@ Program: Search in a rotated array
 Description: 
 Shanbo Cheng: cshanbo@gmail.com
 Date: 2016-07-29 14:13:10
-Last modified: 2016-07-29 14:18:19
+Last modified: 2016-08-19 08:37:54
 GCC version: 4.9.3
 ***********************************************************/
+
+#include <vector>
 
 class Solution {
     //firstly, binary search to find the rotation index, then binary search the two parts (could search only one too)

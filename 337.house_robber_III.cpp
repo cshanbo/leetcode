@@ -4,12 +4,14 @@ Program: house robber III
 Description: 
 Author: cshanbo@gmail.com
 Date: 2016-08-29 15:18:42
-Last modified: 2016-08-29 15:23:36
+Last modified: 2016-08-29 16:00:03
 GCC version: 4.9.3
 *****************************************/
 //
 // typical dfs solution
 // where, the max value is root + root.grandchildren or rob(root.left) + rob(root.right)
+//
+
 #include <algorithm>
 
 struct TreeNode {
@@ -28,7 +30,6 @@ public:
         int ll = 0, lr = 0, rl = 0, rr = 0;
         l = rob(root->left, ll, lr);
         r = rob(root->right, rl, rr);
-        
         return std::max(root->val + ll + lr + rl + rr, l + r);
     }
 

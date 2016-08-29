@@ -4,11 +4,12 @@ Program: Design tweeter
 Description: 
 Author: cshanbo@gmail.com
 Date: 2016-08-17 09:00:37
-Last modified: 2016-08-18 21:26:14
+Last modified: 2016-08-29 16:56:50
 GCC version: 4.9.3
 *****************************************/
 
 #include <vector>
+#include <algorithm>
 #include <unordered_set>
 #include <unordered_map>
 using namespace std;
@@ -37,7 +38,7 @@ namespace std {
     };
 }
 
-bool static compare(TWEET& t1, TWEET& t2) {
+bool static compare(const TWEET& t1, const TWEET& t2) {
     return t1.timeline > t2.timeline;
 }
 
